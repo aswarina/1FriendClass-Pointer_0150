@@ -23,5 +23,9 @@ public:
     void setId(int pId);
     void displayAll(orang &a);
 };
-
+// Implementasi method displayAll
+void siswa::displayAll(orang &a)
+{
+    cout << id << endl << a.nama << endl;
+}
 
